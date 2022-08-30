@@ -1,0 +1,124 @@
+:root{
+--verde:#59CE8F;
+--oscuro:#000000;
+--celeste:#E8F9FD;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    /*usar en todos los proyectos*/
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    /*usar en todos los proyectos */
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: aliceblue;
+
+}
+
+.nombre {
+    font-weight: 700;
+    font-size: 5rem;
+    
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+
+.nav-bg {
+    background-color:cornflowerblue;
+
+}
+
+.navegacion-principal {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descripcion   {
+
+    color: aliceblue;
+    margin: auto;
+    width: 100rem;
+}
+
+.contenedor{
+
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 2rem;
+    color: aliceblue;
+}
+
+.navegacion-principal a:hover {
+    background-color: aqua;
+    color: black;
+
+}
+
+.encabezado {
+    background-color:var(--verde);
+    text-align: center;
+    width: 120rem;
+    margin: auto;
+}
+
+.encabezado a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.text{
+text-align: center;
+margin: auto;
+
+}
+.background {
+   background-color:black;
+}
+
+.contacto a{
+
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+.contacto a:hover{
+
+    color: var(--verde);
+}
+
+.contacto{
+
+    text-align: center;
+    font-weight: 120rem;
+    margin: auto;
+    width: 120rem;
+    size: 120rem;
+}
+
+.wsp a{
+
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
