@@ -42,30 +42,41 @@ body {
 .navegacion-principal {
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+  }
 
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+@media (min-width: 768px) {
+    
+    .navegacion-principal{
+        flex-direction:row;
+        justify-content: space-between;
+    }
 }
 
 .descripcion   {
 
     color: aliceblue;
     margin: auto;
-    width: 100rem;
+    max-width: 120rem;
 }
 
 .contenedor{
 
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
-.navegacion-principal a {
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 2rem;
-    color: aliceblue;
-}
+
 
 .navegacion-principal a:hover {
     background-color: aqua;
@@ -76,7 +87,7 @@ body {
 .encabezado {
     background-color:var(--verde);
     text-align: center;
-    width: 120rem;
+    max-width: 120rem;
     margin: auto;
 }
 
@@ -100,11 +111,13 @@ margin: auto;
     text-decoration: none;
     color: aliceblue;
     text-align: center;
+    
 }
 
 .contacto a:hover{
 
     color: var(--verde);
+    
 }
 
 .contacto{
@@ -112,13 +125,9 @@ margin: auto;
     text-align: center;
     font-weight: 120rem;
     margin: auto;
-    width: 120rem;
+    max-width: 120rem;
     size: 120rem;
 }
 
-.wsp a{
 
-    text-decoration: none;
-    color: aliceblue;
-    text-align: center;
-}
+
